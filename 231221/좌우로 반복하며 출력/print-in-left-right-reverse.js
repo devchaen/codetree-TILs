@@ -13,7 +13,7 @@ for (let i = 0; i < n; i++) {
     } else {
         let str = '';
         for (let k = 0; k < n; k++) {
-            str += `${4 - k}`
+            str += `${n - k}`
         }
         ans.push(str);
     }
